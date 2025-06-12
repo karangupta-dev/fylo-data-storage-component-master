@@ -1,0 +1,32 @@
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+ 
+  margin: 0;
+  padding: 0;
+
+  /* typography */
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 14px;
+
+  /* background */
+  background-color: hsl(229, 57%, 11%);
+  background-image: url("images/bg-desktop.png");
+  background-repeat: no-repeat; /* Prevent tiling */
+  background-position: bottom center; /* Center the image */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
